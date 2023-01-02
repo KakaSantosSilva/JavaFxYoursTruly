@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="393.0" prefWidth="481.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="arianayourstruly.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="275.0" layoutY="140.0" mnemonicParsing="false" onAction="#cliqueBotao" text="Faixas" />
+      <Label alignment="CENTER" layoutX="47.0" layoutY="27.0" prefHeight="74.0" prefWidth="385.0" text="Conheça as faixas do 1 álbum de estúdio da Cantora Ariana Grande" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="60.0" layoutY="101.0" prefHeight="25.0" prefWidth="82.0" text="Yours Truly">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMensagem" layoutX="60.0" layoutY="142.0" text="Confira clicando no Botão: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
